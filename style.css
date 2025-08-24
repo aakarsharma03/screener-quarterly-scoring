@@ -1,0 +1,27 @@
+/* Styling for the scores section */
+.score-container {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    margin-bottom: 10px; /* Space between scores and the table */
+    padding: 10px 0; /* Adjust padding */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    right: -20px; /* Shift the entire container to the right */
+}
+
+/* Styling for each score box */
+.score-box {
+    width: 70px; /* Box width */
+    text-align: center;
+    background-color: #9ddefd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 0; /* Adjust padding */
+    font-weight: bold;
+    color: #333;
+    margin: 0 5px; /* Adjust spacing between boxes */
+    transform: translateX(10px); /* Slightly shift each box to the right */
+}
